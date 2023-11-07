@@ -4,7 +4,6 @@ from rest_framework import viewsets
 
 from posts.models import Group, Post
 from .serializers import GroupSerializer, PostSerializer, CommentSerializer
-# Create your views here.
 
 
 class PermissionsMixin:
